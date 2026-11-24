@@ -1,0 +1,16 @@
+\begin{tabular}{llccc}
+\toprule
+Model & Features & F1 & PR-AUC & Size (KB) \\
+\midrule
+Logistic regression & raw & 0.234 & -- & -- \\
+MLP & raw & 0.389 & -- & -- \\
+Decision tree & raw & 0.452 & 0.495 & 5.7 \\
+Random forest & raw & 0.596 & 0.775 & 7,300.0 \\
+\textbf{Tsetlin Machine} & raw & 0.567 $\pm$ 0.036 & 0.609 & 22.9 \\
+Logistic regression & physics & 0.276 & -- & -- \\
+MLP & physics & 0.347 $\pm$ 0.222 & -- & -- \\
+Decision tree & physics & 0.533 & 0.819 & 5.7 \\
+Random forest & physics & 0.864 & 0.888 & 4,400.0 \\
+\textbf{Tsetlin Machine} & physics & 0.772 $\pm$ 0.057 & 0.808 & 26.7 \\
+\bottomrule
+\end{tabular}

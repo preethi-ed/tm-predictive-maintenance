@@ -1,0 +1,7 @@
+Failure mode,Count,Tsetlin Machine,Decision tree,Random forest
+TWF,46,0.043,0.761,0.087
+HDF,115,0.913,0.965,0.939
+PWF,95,0.789,0.968,0.989
+OSF,98,0.888,0.929,0.99
+RNF,1,0.0,1.0,0.0
+ALL,339,0.735,0.9,0.823

@@ -1,0 +1,11 @@
+\begin{tabular}{llll}
+\toprule
+Mode & Ground truth & Decision tree & Tsetlin Machine \\
+\midrule
+HDF & $\Delta T < 8.6$ K $\wedge$ rpm $< 1380$ & $\Delta T \le 8.6$ $\wedge$ rpm $\le 1380$ & $\Delta T \le 9.15$ $\wedge$ rpm $\le 1422$ \\
+PWF (low) & $P < 3500$ W & $P \le 3496$ & -- (lower-ranked clauses) \\
+PWF (high) & $P > 9000$ W & $P > 9005$ & $P > 8529$ $\wedge$ $\tau > 60.65$ \\
+OSF & $w\tau > 11000$--$13000$ & $w\tau > 10566$ / $11014$ & $w\tau > 10470$ $\wedge$ $\neg$Type H$^\dagger$ \\
+TWF & $200 \le w \le 240$ min & $w > 202.5$ & $w > 202.5$ \\
+\bottomrule
+\end{tabular}

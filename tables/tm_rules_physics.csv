@@ -1,0 +1,16 @@
+clause,weight,n_literals,rule
+180,191,9,Air temperature [K] > 300.1 AND 310.1 < Process temperature [K] <= 312.1 AND Rotational speed [rpm] > 1503 AND Tool wear [min] > 206 AND temp_diff > 8.4 AND wear_x_torque > 6580
+183,138,8,297.8 < Air temperature [K] <= 300.1 AND Process temperature [K] > 307.8 AND Rotational speed [rpm] > 1503 AND temp_diff <= 9.8 AND Type_M AND NOT Type_H
+79,133,7,Torque [Nm] > 60.65 AND temp_diff > 8.75 AND power_w > 8529 AND Tool wear [min] <= 202.5
+83,108,4,Air temperature [K] <= 303.7 AND Rotational speed [rpm] <= 1422 AND temp_diff <= 9.15 AND wear_x_torque <= 9293
+265,107,11,297.1 < Air temperature [K] <= 303.5 AND Rotational speed [rpm] > 1422 AND Tool wear [min] > 202.5 AND wear_x_torque > 7682 AND Process temperature [K] <= 312.5 AND temp_diff <= 11.4 AND power_w <= 6272 AND NOT Type_M
+15,106,2,Process temperature [K] > 311.2 AND Type_M
+124,99,9,Air temperature [K] > 300.1 AND 309.8 < Process temperature [K] <= 311.7 AND 1394 < Rotational speed [rpm] <= 1462 AND Torque [Nm] > 41.85 AND temp_diff > 8.95 AND power_w > 6685
+288,98,4,Air temperature [K] > 301.6 AND Process temperature [K] > 308.1 AND Rotational speed [rpm] > 1428 AND wear_x_torque > 6580
+289,97,4,301.6 < Air temperature [K] <= 303.7 AND wear_x_torque <= 9293
+89,95,2,Torque [Nm] > 60.65 AND Air temperature [K] <= 303.7
+193,95,2,Tool wear [min] > 206 AND wear_x_torque <= 6637
+159,94,7,308.1 < Process temperature [K] <= 310.1 AND Rotational speed [rpm] > 1380 AND Tool wear [min] > 31.5 AND temp_diff > 9.8 AND power_w > 6666
+36,94,4,Torque [Nm] > 60.65 AND power_w > 8529 AND Tool wear [min] <= 107
+274,92,3,Tool wear [min] > 202.5 AND Process temperature [K] <= 311.1 AND Rotational speed [rpm] <= 1462
+101,90,4,Air temperature [K] > 301.6 AND Process temperature [K] <= 312.1 AND Torque [Nm] <= 56.3 AND temp_diff <= 8.95

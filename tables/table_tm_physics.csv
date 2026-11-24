@@ -1,0 +1,8 @@
+,mean,std
+f1,0.772,0.057
+precision,0.815,0.069
+recall,0.736,0.073
+pr_auc,0.808,0.053
+train_s,26.38,15.101
+size_kb,26.66,0.0
+n_bool_features,91.0,0.0

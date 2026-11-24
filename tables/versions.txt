@@ -1,0 +1,6 @@
+python 3.14.2
+platform Windows-11-10.0.26300-SP0
+tmu 0.8.3
+scikit-learn 1.8.0
+numpy 2.4.0
+pandas 2.3.3

@@ -1,0 +1,6 @@
+,f1,f1,pr_auc,pr_auc,bit_kb,bit_kb
+,mean,std,mean,std,mean,std
+variant,,,,,,
+"quantile, no cap",0.651,0.029,0.702,0.036,36.035,0.0
+supervised + cap 10,0.746,0.072,0.784,0.054,26.66,0.0
+"supervised, no cap",0.732,0.061,0.78,0.057,26.66,0.0
