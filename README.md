@@ -18,7 +18,8 @@ pip install -r requirements.txt
 ## Reproduce the paper
 | Step | Command | Output |
 |---|---|---|
-| Main comparison (Table 1, Table 2) | `python run_revision.py` | `tables/revision_folds_*.csv`, `tables/table_revision_*.csv` |
+| Main comparison, raw features | `python run_revision.py` | `tables/*_raw.csv` |
+| Main comparison, physics features | `python run_revision.py --physics` | `tables/*_physics.csv` |
 | TM ablation (Table 4) | `python run_ablation_tm.py` | `tables/ablation_nested_folds.csv`, `tables/table_ablation_nested.csv` |
 | Figures 2 and 3 | `python make_paper_figures.py` | `figures/*.png` |
 
